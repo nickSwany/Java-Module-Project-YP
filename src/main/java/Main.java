@@ -9,15 +9,6 @@ public class Main {
         calculate.finalCoast();
 
         String end1 = String.format("%.2f", calculate.finalCoast());
-System.out.println("С каждого человека  - " + end1 + rub.nameRub1() + ".");
-
-
-
+        System.out.println("С каждого человека  - " + end1 + rub.nameRub(Calc.finalCoast()) + ".");
     }
-
-
-
-
-
-
 }
